@@ -3,7 +3,7 @@ let wave = [];
 let slider;
 function setup(){
     createCanvas(600,400);// Canvas shape i.e background box
-    slider = createSlider(1,50,1);
+    slider = createSlider(1,25,1);
 }
 function draw(){
     

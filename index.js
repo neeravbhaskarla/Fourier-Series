@@ -4,6 +4,8 @@ let slider;
 function setup(){
     createCanvas(600,400);// Canvas shape i.e background box
     slider = createSlider(1,10,1);
+    slider.position(10, 10);
+    slider.style('width', '80px');
 }
 function draw(){
     

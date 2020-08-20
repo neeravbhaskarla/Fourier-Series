@@ -44,7 +44,7 @@ function draw(){
     }
     endShape();
 
-    time+=0.05; //time interval + clockwise and - anti-clockwise
+    time+=0.07; //time interval + clockwise and - anti-clockwise
     if (wave.length>250){
         wave.pop()
     }

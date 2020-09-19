@@ -9,7 +9,7 @@ function setup(){
 }
 function draw(){
     
-    background(0); // Background hence it is 0->black
+    background(255,69,0); // Background hence it is 0->black
     translate(150,200); // Object alignment canvas is (600,400) hence (300,200) makes it to align center
     
     let x =0;
